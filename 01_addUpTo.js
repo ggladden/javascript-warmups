@@ -30,5 +30,5 @@ describe('addUpTo()', function() {
     assert.ok(isNaN(addUpTo('string')));
     assert.ok(isNaN(addUpTo(null)));
     assert.ok(isNaN(addUpTo([])));
-  })
+  });
 });
